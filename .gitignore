@@ -1,0 +1,6 @@
+.env
+profiles.json
+node_modules/
+store.json
+.claude/
+package-lock.json
