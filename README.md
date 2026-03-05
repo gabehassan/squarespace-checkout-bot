@@ -124,6 +124,16 @@ Payment token types:
 - **PayPal** — Requires browser redirect flow.
 - **reCAPTCHA** — If a store enables it, invisible reCAPTCHA requires a browser. Most stores have it disabled.
 
+## Tested With
+
+Verified working across different Squarespace store types:
+
+| Store | Category | Products |
+|-------|----------|----------|
+| [Vertigo Vinyl](https://vertigovinyl.com) | Vinyl records | 200+ limited pressings |
+
+The bot works with any Squarespace Commerce store.
+
 ## License
 
 MIT
