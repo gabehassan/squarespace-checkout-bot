@@ -19,17 +19,13 @@ The bot reverse-engineers Squarespace's checkout flow into 7 HTTP requests:
 ## Setup
 
 ```bash
-git clone https://github.com/your-username/squarespace-checkout-bot.git
+git clone https://github.com/gabehassan/squarespace-checkout-bot.git
 cd squarespace-checkout-bot
 npm install
-cp .env.example .env
-```
-
-Edit `.env` with your store URL and credentials, or just run the bot — the interactive setup will guide you:
-
-```bash
 node index.js
 ```
+
+The interactive setup will walk you through entering your store URL, shipping address, and payment info on first run. You can also configure everything manually via `.env` (see `.env.example`).
 
 ## Usage
 
